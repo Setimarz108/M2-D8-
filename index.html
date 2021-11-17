@@ -1,88 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./styles.css">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+
     <title>Landing page</title>
-</head>
-<body>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand ml-5" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Exercise 1 -->
+
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-        <a class="navbar-brand ml-5" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-         
-            
-          </div>
-        </div>
-      </nav>
-
-
-      <!--/-/-/-/-/-/-/-/-/ EXERCISE 2 🚀 -/-/-/-/-/-/-/-/-->
-      <section class="container">
-        <div>
-          <h1 class="display-4 text-center">Exercise 2</h1>
-          <p class="font-weight-light w-50 mx-auto text-center" style="font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, voluptas, quam voluptate ex esse similique aut, ad quis consequatur minus debitis tempore quo ipsam dolores consectetur et !</p>
-        </div>
-        <div class="container pt-3">
-          <div class="row d-flex justify-content-between align-items-center flex-column flex-md-row">
-            <div class="card w-md-100" style="width: 30%;">
-                <h4 class="card-header text-center">Free</h4>
-                <div class="text-center">
-                  <h2 class="py-3 font-weight-bold">$0<span class="text-muted"> / mo</span></h2>
-                  <div class="pb-3" style="line-height: 50%;">
-                    <p>10 users included</p>
-                    <p>2GB of storage</p>
-                    <p>Email Support</p>
-                    <p>Help Center Access</p>
-                  </div>
-                </div>
-                <div class="p-3">
-                  <button class="btn btn-outline-primary w-100">Sign up for free</button>
-                </div>
-            </div>
-            <div class="card" style="width: 30%;">
-              <h4 class="card-header text-center">Pro</h4>
-              <div class="text-center">
-                <h2 class="py-3 font-weight-bold">$15<span class="text-muted"> / mo</span></h2>
-                <div class="pb-3" style="line-height: 50%;">
-                  <p>20 users included</p>
-                  <p>10GB of storage</p>
-                  <p>Priority Email Support</p>
-                  <p>Help Center Access</p>
-                </div>
-              </div>
-              <div class="p-3">
-                <button class="btn btn-primary w-100">Get Started</button>
-              </div>
-          </div>
-          <div class="card" style="width: 30%;">
-            <h4 class="card-header text-center">Enterprise</h4>
-            <div class="text-center">
-              <h2 class="py-3 font-weight-bold">$29<span class="text-muted"> / mo</span></h2>
-              <div class="pb-3" style="line-height: 50%;">
-                <p>30 users included</p>
-                <p>15GB of storage</p>
-                <p>Phone and Email Support</p>
-                <p>Help Center Access</p>
-              </div>
-            </div>
-            <div class="p-3">
-              <button class="btn btn-primary w-100">Contact us</button>
-            </div>
-        </div>    
-          </div>
-        </div>
-      </section>
-
+           
+             <h1 class="text-center mt-5 font-weight-normal"> EXERCISE 1</h1>
+             <p class="text-center text-muted">Recreate this table just using Bootstrap4 classes or styling, without adding / removing any DOM element.</p>
+      
+             <div class="container" height= "auto" >
 
       <section class="container pt-5">
         <div>
@@ -150,5 +118,23 @@
 
 
 
-</body>
+               <div class="row" style="height:400px">
+                  <div class="col-md-6 bg-success d-flex flex-column justify-content-center green_box"  >
+                    <p class="text-white text-center">First Column <br>Height 400px <br> Text centered<br></p>             
+                  </div>
+                  <div class="col-md-2 bg-primary text-white font-weight-bold d-flex flex-column justify-content-end blue_box">
+                    <p>Second Column <br> Text To the Bottom <br> Bold, blueish <br>background</p>
+                  </div>
+                  <div class="col-md-4 px-0 yellow_box">
+                     <div class="d-flex flex-column yellow_column " style="height: 400px;">
+                          <div class="text-center d-flex flex-column justify-content-center" style="height:133px;">Third Column Part 1</div>
+                          <div class="text-center d-flex flex-column justify-content-center" style="height:133px;" >Third Column Part 2</div>
+                          <div class="text-center d-flex flex-column justify-content-center" style="height:133px;" >Third Column Part 3</div>
+                     </div>
+                  </div>
+               </div>
+          </div>
+   
+
+  </body>
 </html>
